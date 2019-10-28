@@ -1,2 +1,3 @@
 var assert = require('assert');
-assert(5 > 7);
+//When the condition is false or 0, throw error and stop the program
+assert(5 < 7);
