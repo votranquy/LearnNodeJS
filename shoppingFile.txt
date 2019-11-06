@@ -1,0 +1,11 @@
+apple
+orange
+coconut
+banana
+lemon
+mango
+guava
+tomato
+onion
+cherry
+rice
