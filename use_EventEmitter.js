@@ -4,7 +4,7 @@ var events = require('events');
 //create an EventEmitter object
 var eventEmitter = new events.EventEmitter();
 
-//A addListener
+//A Listener
 var bellRingHandler1 = function bellRingHandler1(who){
   console.log("\n");
   console.log("The bell ringing (1)\n");
