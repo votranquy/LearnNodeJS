@@ -5,7 +5,7 @@ function readFinish1(err, data){
   if(err) console.log(err);
   console.log("Data 1:");
   console.log(data.toString());
-  return data.toString();
+  // return data.toString();
 }
 
 //Callback function 2
@@ -13,7 +13,7 @@ function readFinish2(err, data){
   if(err) console.log(err);
   console.log("Data 2:");
   console.log(data.toString());
-  return data.toString();
+  // return data.toString();
 }
 
 async function Call(){
