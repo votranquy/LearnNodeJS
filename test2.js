@@ -1,28 +1,37 @@
 var response = {
   "paymentList" : [
     {
-    "acctNo": "1",
-    "srvNo": "001",
+    "acctNo": "2",
+    "srvNo": "002",
     "tranxId": "Writeoff Payment"
     },
     {
-    "acctNo": "2",
+    "acctNo": "1",
     "srvNo": "002",
     "tranxId": "(DO NOT USE)IPS - Payment via MIT"
     },
     {
-    "acctNo": "5",
-    "srvNo": "003",
+    "acctNo": "3",
+    "srvNo": "001",
     "tranxId": "(DO NOT USE)IPS - Payment via CAD"
     }
 ]}
 
+
+
+
+
+
+
+
+
+
 var resp = response;
 var array = [];
 array = resp.paymentList.map(
-  e => ({
-    acctNo: e.acctNo
-  })
+  e =>
+    e.acctNo
+
 );
 // resp = JSON.stringify(resp);
 console.log(array);

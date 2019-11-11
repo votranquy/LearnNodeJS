@@ -18,3 +18,6 @@ var response = {
 ]}
 resp = JSON.stringify(response);
 console.log('test: ' + resp);
+
+resp = JSON.stringify(response);
+console.log(resp);
